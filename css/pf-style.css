@@ -1774,6 +1774,11 @@ body {
 	padding: 4%;
 	width: 50%;
 }
-.contactUs{
-    padding: 27px;
+.contactUs {
+	padding: 27px;
+}
+
+a[href^="tel"] {
+	color: inherit;
+	text-decoration: none;
 }
