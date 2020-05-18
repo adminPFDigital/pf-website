@@ -1782,3 +1782,15 @@ a[href^="tel"] {
 	color: inherit;
 	text-decoration: none;
 }
+
+@media screen and (max-width: 1024px) {
+	.desktop {
+		display: none !important;
+	}
+}
+
+@media screen and (min-width: 1025px) {
+	.mobile {
+		display: none !important;
+	}
+}
